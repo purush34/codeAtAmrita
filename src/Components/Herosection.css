@@ -1,0 +1,65 @@
+
+.svg-cont{
+    position: fixed;
+    top : 40%;
+    text-align: center;
+}
+@keyframes mymove {
+    from {left: 300px;}
+    to {left: 0px;}
+}
+@keyframes mymove2 {
+    from {right: 300px;}
+    to {right: 0px;}
+}
+@keyframes mymove3 {
+    50% {transform: rotate(180deg);}
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+.codeat{
+    padding-bottom: 20px;
+}
+.amrita{
+    padding-bottom: 15px;
+}
+.codeat,.amrita{
+    animation : fadein 3s;
+    z-index: -999;
+    width: 30%;
+}
+.openB{
+    position: relative;
+    animation: mymove 1s;
+    animation-timing-function: ease-out;
+    padding-bottom: 60px;
+    width: 10%;
+}
+.slash{
+    position: relative;
+    animation: mymove3 1s;
+    animation-timing-function: ease-out;
+    padding-bottom: 60px;
+    width: 10%;
+}
+.closeB{
+    width: 10%;
+    position: relative;
+    animation: mymove2 1s;
+    animation-timing-function: ease-out;
+    padding-bottom: 60px;
+
+}
+.hero-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+
+}

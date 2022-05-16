@@ -1,0 +1,48 @@
+.cards {
+    padding:  0 ;
+    position: absolute;
+    width: 100%;
+    background: #fff;
+    top: 80%;
+  }
+  h1 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .cards__container {
+    display: flex;
+    padding: 2rem;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .cards__item {
+    display: flex;
+    flex: 1;
+    margin: 1rem;
+    border-radius: 10px;
+  }
+  
+  
+  @media only screen and (min-width: 1200px) {
+    .content__blog__container {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (min-width: 1024px) {
+    .cards__items {
+      display: flex;
+    }
+  }
+  
+  @media only screen and (max-width: 1024px) {
+    .cards__item {
+      margin-bottom: 2rem;
+    }
+  }
+  

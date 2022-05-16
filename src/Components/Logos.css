@@ -1,0 +1,41 @@
+
+.container_logos{
+    background-color: #fff;
+    width: max-content ;
+    margin: 1rem;
+    height: 4rem;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    /* max-width: 20rem; */
+    display: flex;
+    align-items: center;
+    border: solid white 1px;
+    border-radius: .8rem;
+    justify-content: center;
+    padding: 2rem;
+    transition: all .5s;
+    text-decoration: none;
+
+}
+.mainLink{
+    text-decoration: none;
+    color: black;
+}
+.mainLink :hover{
+    color: black;
+}
+.container_logos:hover{
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
+
+.img-cont{
+    min-width: 2rem;
+    max-width: 6rem;
+    position: relative;
+}
+.logo-title {
+    position: flex;
+    text-decoration: none;
+    padding: 0 0 0 1rem;
+    font-size: medium;
+    font-weight: 500;
+}

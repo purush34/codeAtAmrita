@@ -1,0 +1,58 @@
+.container{
+    background-color: rgb(7, 205, 112);
+    max-width: 100%;
+    width:max-content ;
+    height: max-content;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+    /* max-width: 20rem; */
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    border: solid white 1px;
+    border-radius: .8rem;
+    padding: 1rem 2rem;
+    transition: all .5s;
+    max-height: 16rem;
+}
+@media only screen and (max-width: 1000px){
+ .container{
+     display: block;
+ }
+ .imgFeild img  {
+     width: 250px;
+     transform: translateX(+6rem);
+     margin-bottom: 1rem;
+ }
+}
+.container:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 3px 12px;
+    transform: scale(1.1);
+}
+.textFeild p{
+    padding: 0;
+    width: 20rem;
+    height: auto;
+    position: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: larger;
+    font-weight: 400;
+}
+.imgFeild{
+    width: 100%;
+    height: auto;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.5s;
+    transform: translateX(-6rem);
+}
+.imgFeild img{
+    height: 100%;
+    max-width: 20rem;
+    border-radius: .8rem;
+    box-sizing: border-box;
+    border-radius: 0.8rem;
+    object-fit: cover;
+}
