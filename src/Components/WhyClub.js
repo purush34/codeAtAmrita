@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
-import './WhyClub.css'
+// import './WhyClub.css'
+import './WhyCards.css'
 import WhyCards from './WhyCards'
 
 function WhyClub() {

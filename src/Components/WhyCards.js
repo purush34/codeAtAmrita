@@ -1,5 +1,5 @@
 import React from 'react'
-import './WhyCards.css'
+
 
 function WhyCards(props) {
   return (
