@@ -14,7 +14,7 @@ function MasterCard() {
         <h1 className="blog-post__title">Instructor</h1>
             <div className="blog-post__date">
                 <span>Dr. Swaminathan J.</span>
-                <span>Asst. Professor</span>
+                <span>Associate Professor</span>
         </div>
 
         <p className="blog-post__text">

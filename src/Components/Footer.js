@@ -16,7 +16,7 @@ function Footer() {
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
-              to='https://www.facebook.com/CodeAtAmrita'
+              to={{pathname: "https://www.facebook.com/CodeAtAmrita"}}
               target='_blank'
               aria-label='Facebook'
             >
