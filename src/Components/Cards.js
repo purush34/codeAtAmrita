@@ -38,19 +38,19 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/ds.png'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/ds.png'
               text='Smart data structures and dumb code works a lot better than the other way around.'
               label='Data Structures'
               path='/'
               />
             <CardItem
-              src='images/code.jpg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/code.jpg'
               text='An algorithm is like a recipe for a computer to follow. Learn good recipe'
               label='Algorithms'
               path='/'
               />
             <CardItem
-              src='images/timecomp.png'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/timecomp.png'
               text='Talk is cheap. Show me the code.'
               label='Time Complexity'
               path='/'

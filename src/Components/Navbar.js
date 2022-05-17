@@ -11,7 +11,7 @@ function Navbar() {
       <div className='container-fluid'> 
         <div>
           {/* <i className="fas fa-code" data-bss-hover-animate="tada" style={() => color: "var(--bs-red)"}></i> */}
-          <Link className="navbar-brand" to='/'  style={styleNavbar}>Code@Amrita</Link>
+          <Link className="navbar-brand" to='/codeAtAmrita'  style={styleNavbar}>Code@Amrita</Link>
           <button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbar-collapse">
             <span className="visually-hidden" style={styleSpan}>Toggle navigation</span>
             <span className="navbar-toggler-icon"></span>
@@ -20,13 +20,13 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbar-collapse">
           <ul className="navbar-nav links">
             <li className="nav-item">
-            <Link className='nav-link' to='/members'>Members</Link>
+            <Link className='nav-link' to='/codeAtAmrita/members'>Members</Link>
             </li>
             <li className="nav-item">
-            <Link className='nav-link' to='/resources'>Resources</Link>
+            <Link className='nav-link' to='/codeAtAmrita/resources'>Resources</Link>
             </li>
             <li className="nav-item">
-            <Link className='nav-link' to='/why'>Why join us?</Link>
+            <Link className='nav-link' to='/codeAtAmrita/why'>Why join us?</Link>
             </li>
           </ul>
           <ul className="navbar-nav ms-auto"></ul>

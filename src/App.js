@@ -10,8 +10,8 @@ import PagesNotFound from './Pages/PagesNotFound';
 function App() {
   return (
     <div className="App">
-      <video src='/videos/videov2.mp4' autoPlay loop muted></video>
-      <Router>
+      <video src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/videos/videov2.mp4' autoPlay loop muted></video>
+      <Router basename={process.env.PUBLIC_URL}>
         <Navbar />
         <Routes>
         <Route exact path='/' element={< Home />}></Route>

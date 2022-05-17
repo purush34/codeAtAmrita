@@ -12,7 +12,7 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/Members/dharani.png'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/dharani.png'
               text='Dhulipalla Dharani  AM.EN.U4CSE19218'
               label='2019-23'
               path='/services'
@@ -35,19 +35,19 @@ function Cards() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src='images/Members/abinandarun.jpg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/abinandarun.jpg'
               text='Abhinand Arun  AM.EN.U4CSE20201'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/abinandarun.jpg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/abinandarun.jpg'
               text='Charan Suneel  AM.EN.U4CSE20201'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/abinandarun.jpg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/abinandarun.jpg'
               text='Dilip Pushadapu  AM.EN.U4CSE20322'
               label='2020-24'
               path='/services'
@@ -55,39 +55,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/purush.jpeg'
-              text='Purushottam Reddy AM.EN.U4CSE20120'
-              label='2020-24'
-              path='/services'
-            />
-          </ul>
-          <ul className='cards__items'>
-            <CardItem
-              src='images/Members/purush.jpeg'
-              text='Purushottam Reddy AM.EN.U4CSE20120'
-              label='2020-24'
-              path='/services'
-            />
-            <CardItem
-              src='images/Members/purush.jpeg'
-              text='Purushottam Reddy AM.EN.U4CSE20120'
-              label='2020-24'
-              path='/services'
-            />
-            <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
@@ -95,19 +75,19 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
@@ -115,19 +95,39 @@ function Cards() {
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
             />
             <CardItem
-              src='images/Members/purush.jpeg'
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
+              text='Purushottam Reddy AM.EN.U4CSE20120'
+              label='2020-24'
+              path='/services'
+            />
+          </ul>
+          <ul className='cards__items'>
+            <CardItem
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
+              text='Purushottam Reddy AM.EN.U4CSE20120'
+              label='2020-24'
+              path='/services'
+            />
+            <CardItem
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
+              text='Purushottam Reddy AM.EN.U4CSE20120'
+              label='2020-24'
+              path='/services'
+            />
+            <CardItem
+              src='https://raw.githubusercontent.com/purush34/codeAtAmrita/main/public/images/Members/purush.jpeg'
               text='Purushottam Reddy AM.EN.U4CSE20120'
               label='2020-24'
               path='/services'
