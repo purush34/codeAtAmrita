@@ -19,7 +19,7 @@ function LogoBox() {
             <Logos imgLink="https://img.atcoder.jp/assets/favicon.png" title='Atcoder'
             link='https://atcoder.jp/' />
 
-            <Logos imgLink="https://static-fastly.hackerearth.com/newton/production/static/images/common/favicon.png" title='Hakerrank'
+            <Logos imgLink="https://static-fastly.hackerearth.com/newton/production/static/images/common/favicon.png" title='HackerEarth'
             link='https://www.hackerearth.com/' />
             
         </ul>
@@ -27,7 +27,7 @@ function LogoBox() {
             <Logos imgLink="https://stx1.spoj.com/gfx/favicon_new.png" title='Spoj'
             link='https://www.spoj.com/' />
 
-            <Logos imgLink="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-150x150.png" title='Hakerearth'
+            <Logos imgLink="https://www.hackerrank.com/wp-content/uploads/2020/05/hackerrank_cursor_favicon_480px-150x150.png" title='HackerRank'
             link='https://www.hackerrank.com/' />
 
             <Logos imgLink="https://projecteuler.net/favicons/apple-touch-icon.png" title='Project Euler'
