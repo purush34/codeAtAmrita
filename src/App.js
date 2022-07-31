@@ -21,6 +21,7 @@ function App() {
         <Route exact path='/resources' element={< Resources />}></Route>
         <Route exact path='/why' element={< WhyUs />}></Route>
         <Route exact path='/upev' element={< Events />}></Route>
+        <Route exact path='/achieve' element={< Events />}></Route>
         <Route path='*' element={<PagesNotFound />} />
         </Routes>
       </Router>

@@ -25,15 +25,6 @@ function Upcoming() {
           <WhyCards src='https://cdn-images-1.medium.com/max/2600/1*UGT1Rh9xLww3JeIDR1F0RQ.png' 
           text='Coming Event' color='#dcf563'
           />
-          {/* <WhyCards src='' 
-          text='' 
-          color='#dcda45'
-          />
-          
-          <WhyCards src='' 
-          text='' color='orange'
-          /> */}
-
           
       </div>
       <Footer />
