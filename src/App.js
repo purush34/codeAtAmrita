@@ -19,6 +19,7 @@ function App() {
         <Route exact path='/members' element={< Members />}></Route>
         <Route exact path='/resources' element={< Resources />}></Route>
         <Route exact path='/why' element={< WhyUs />}></Route>
+        
         <Route path='*' element={<PagesNotFound />} />
         </Routes>
       </Router>

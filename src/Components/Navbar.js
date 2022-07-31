@@ -28,6 +28,12 @@ function Navbar() {
             <li className="nav-item">
             <Link className='nav-link' to='/why'>Why join us?</Link>
             </li>
+            <li className="nav-item">
+            <Link className='nav-link' to='/upev'>Upcoming Events!</Link>
+            </li>
+            <li className="nav-item">
+            <Link className='nav-link' to='/achieve'>Achievements</Link>
+            </li>
           </ul>
           <ul className="navbar-nav ms-auto"></ul>
         </div>
