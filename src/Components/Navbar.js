@@ -10,7 +10,6 @@ function Navbar() {
     <nav className="navbar navbar-dark navbar-expand-md bg-dark text-capitalize fs-5 fw-normal custom-header">
       <div className='container-fluid'> 
         <div>
-          {/* <i className="fas fa-code" data-bss-hover-animate="tada" style={() => color: "var(--bs-red)"}></i> */}
           <Link className="navbar-brand" to='/'  style={styleNavbar}>Code@Amrita</Link>
           <button data-bs-toggle="collapse" className="navbar-toggler" data-bs-target="#navbar-collapse">
             <span className="visually-hidden" style={styleSpan}>Toggle navigation</span>
@@ -30,9 +29,6 @@ function Navbar() {
             </li>
             <li className="nav-item">
             <Link className='nav-link' to='/upev'>Upcoming Events!</Link>
-            </li>
-            <li className="nav-item">
-            <Link className='nav-link' to='/achieve'>Achievements</Link>
             </li>
           </ul>
           <ul className="navbar-nav ms-auto"></ul>
