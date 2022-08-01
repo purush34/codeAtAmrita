@@ -5,6 +5,7 @@ import Navbar from './Components/Navbar';
 import Members from './Pages/Members';
 import Resources from './Pages/Resources';
 import WhyUs from './Pages/WhyUs';
+import Events from './Pages/Events';
 import PagesNotFound from './Pages/PagesNotFound';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/members' element={< Members />}></Route>
         <Route exact path='/resources' element={< Resources />}></Route>
         <Route exact path='/why' element={< WhyUs />}></Route>
+        <Route exact path='/upev' element={< Events />}></Route>
         <Route path='*' element={<PagesNotFound />} />
         </Routes>
       </Router>

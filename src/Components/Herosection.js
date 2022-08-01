@@ -9,7 +9,6 @@ import slash from '../svg/slash.svg'
 function Herosection() {
   return (
     <div className='hero-container'>
-      
         <div className='svg-cont'>
         <img src={openB} alt='codeat' className='openB' ></img>
         <img src={codeat} alt='codeat' className='codeat'  />

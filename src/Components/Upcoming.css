@@ -1,0 +1,84 @@
+.bordercss {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+.columncss {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+    .columncss {
+        width: 100%;
+        display: block;
+    }
+}
+
+.cardcss {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border-top: 3.9px solid;
+    border-bottom: 3.9px solid;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+}
+
+.containercss {
+    padding: 0 0px;
+    position: relative;
+}
+
+.containercss::after,
+.rowcss::after {
+    clear: both;
+}
+
+.buttoncss {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 5px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 50%;
+}
+
+.buttoncss:hover {
+    background-color: rgb(22, 252, 252);
+}
+
+.imagecss {
+    display: block;
+    width: 90%;
+    height: 90%;
+    height: auto;
+}
+
+.overlaycss {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px;
+    text-align: center;
+}
+
+.containercss:hover .overlaycss {
+    opacity: 1;
+    border-radius: 20px;
+}
