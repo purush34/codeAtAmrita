@@ -22,6 +22,11 @@
 
 .cardcss {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    border-top: 3.9px solid;
+    border-bottom: 3.9px solid;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
 }
 
 .containercss {
@@ -47,7 +52,7 @@
 }
 
 .buttoncss:hover {
-    background-color: #555;
+    background-color: rgb(22, 252, 252);
 }
 
 .imagecss {
@@ -75,5 +80,5 @@
 
 .containercss:hover .overlaycss {
     opacity: 1;
-    
+    border-radius: 20px;
 }
